@@ -1,3 +1,14 @@
 body {
-  background-color: pink;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+header {
+  padding: 2.313em 2.500em;
+}
+
+.logo {
+  width: 166px;
 }
