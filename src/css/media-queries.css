@@ -1,0 +1,55 @@
+@media only screen and (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(281px, 1fr));
+  }
+
+  .title {
+    width: 27rem;
+  }
+
+  .no-result {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    padding-top: 3em;
+  }
+
+  .no-result-img { 
+    height: 57vh;
+  }
+
+  .no-result .description {
+    width: 14rem;
+  }
+
+  .card + .card {
+    margin-left: 0;
+  }
+
+  .slide {
+    margin: 0;
+    padding: 0 2.5em;
+  }
+  
+  .slide-item {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(281px, 1fr));
+    grid-gap: 3.125rem;
+    margin: 0;
+    min-width: auto;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  header, .container, .slide {
+    max-width: 70vw;
+    margin: 0 auto;
+    overflow: initial;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

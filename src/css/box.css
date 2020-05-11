@@ -4,7 +4,22 @@
 }
 
 .box-image {
-  width: auto;
+  background-repeat: no-repeat;
+  background-position: top left;
+  height: 75px;
+  width: 100%;
+}
+
+.sunlight {
+  background-image: url('../images/sun.png');
+}
+
+.water {
+  background-image: url("../images/wateringcan.png");
+}
+
+.chew {
+  background-image: url("../images/dog.png");
 }
 
 .box .select {

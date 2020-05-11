@@ -4,4 +4,4 @@ import '../css/section.css';
 import '../css/box.css';
 import '../css/card.css';
 import '../css/icons.css';
-import '../css/desktop.css';
+import '../css/media-queries.css';

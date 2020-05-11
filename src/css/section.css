@@ -1,4 +1,3 @@
-
 .title {
   color: var(--dark-gray);
   font-size: 2.5em;
@@ -13,8 +12,12 @@
   margin: 0;
 }
 
-.no-result img {
-  margin-top: 3em;
+.no-result-img {
+  background-image: url("../images/illustration.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 100%;
+  height: 34vh;
   width: 100%;
 }
 
