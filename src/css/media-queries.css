@@ -1,8 +1,4 @@
 @media only screen and (min-width: 768px) {
-  .grid {
-    grid-template-columns: repeat(auto-fill, minmax(281px, 1fr));
-  }
-
   .title {
     width: 27rem;
   }

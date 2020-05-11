@@ -38,7 +38,7 @@ function renderPlant(plant) {
     <div class="card-content">
       <p class="name">${plant.name}</p>
       <div class="card-actions">
-        <p class="price">${plant.price}</p>
+        <p class="price">$ ${plant.price}</p>
         <div class="icons">
         <i class="icon ${plant.sun}"></i>
         <i class="icon ${plant.toxicity}"></i>
