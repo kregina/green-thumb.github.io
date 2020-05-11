@@ -1,6 +1,8 @@
 # GreenThumb
 
-Find your next green friend
+Find your next green friend :)
+
+See the [Preview](http://greenthumb.kellyregina.com.br/) here.
 
 # Sumart
 
