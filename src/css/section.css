@@ -8,7 +8,7 @@
 
 .no-result .title {
   color: var(--ligth-gray);
-  padding: 2.438rem 0 0;
+  padding: 2.438rem 0;
   margin: 0;
 }
 
@@ -22,5 +22,6 @@
 }
 
 .result {
+  display: none;
   padding: 2.438rem 0;
 }

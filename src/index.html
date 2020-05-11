@@ -20,15 +20,18 @@
             Find your next green friend
           </h1>
 
-          <div class="grid">
+          <form name="selectForm" class="grid">
             <div class="box">
               <div class="box-image sunlight"></div>
               <p>
                 <strong>1.</strong> Set the amount of
                 <strong>sunlight</strong> your plant will get.
               </p>
-              <select class="select" id="selectSun">
-                <option>Select...</option>
+              <select class="select" name="sun" required>
+                <option value="">Select...</option>
+                <option value="high">high</option>
+                <option value="low">low</option>
+                <option value="no">no</option>
               </select>
             </div>
 
@@ -38,8 +41,11 @@
                 <strong>2.</strong> How often do you want to
                 <strong>water</strong> your plant?
               </p>
-              <select class="select" id="selectWater">
-                <option>Select...</option>
+              <select class="select" name="water" required>
+                <option value="">Select...</option>
+                <option value="daily">daily</option>
+                <option value="regularly">regularly</option>
+                <option value="rarely">rarely</option>
               </select>
             </div>
 
@@ -49,11 +55,13 @@
                 <strong>3.</strong> Do you have pets? Do they
                 <strong>chew</strong> plants?
               </p>
-              <select class="select" id="selectChew">
-                <option>Select...</option>
+              <select class="select" name="pets" required>
+                <option value="">Select...</option>
+                <option value="false">false</option>
+                <option value="true">true</option>
               </select>
             </div>
-          </div>
+          </form>
         </div>
       </section>
 
@@ -76,83 +84,7 @@
           </div>
 
           <div class="slide">
-            <div class="slide-item">
-              <div class="card">
-                <div class="card-image">
-                  <img
-                    src="https://front-static-recruitment.s3.amazonaws.com/euphorbia-eritrea.jpg"
-                  />
-                </div>
-                <div class="card-content">
-                  <p class="name">Euphorbia eritrea</p>
-                  <div class="card-actions">
-                    <p class="price">$25</p>
-                    <div class="icons">
-                      <i class="icon pet"></i>
-                      <i class="icon highSun"></i>
-                      <i class="icon drop"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="card">
-                <div class="card-image">
-                  <img
-                    src="https://front-static-recruitment.s3.amazonaws.com/euphorbia-eritrea.jpg"
-                  />
-                </div>
-                <div class="card-content">
-                  <p class="name">Euphorbia eritrea</p>
-                  <div class="card-actions">
-                    <p class="price">$25</p>
-                    <div class="icons">
-                      <i class="icon pet"></i>
-                      <i class="icon highSun"></i>
-                      <i class="icon drop"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="card">
-                <div class="card-image">
-                  <img
-                    src="https://front-static-recruitment.s3.amazonaws.com/euphorbia-eritrea.jpg"
-                  />
-                </div>
-                <div class="card-content">
-                  <p class="name">Euphorbia eritrea</p>
-                  <div class="card-actions">
-                    <p class="price">$25</p>
-                    <div class="icons">
-                      <i class="icon pet"></i>
-                      <i class="icon highSun"></i>
-                      <i class="icon drop"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="card">
-                <div class="card-image">
-                  <img
-                    src="https://front-static-recruitment.s3.amazonaws.com/euphorbia-eritrea.jpg"
-                  />
-                </div>
-                <div class="card-content">
-                  <p class="name">Euphorbia eritrea</p>
-                  <div class="card-actions">
-                    <p class="price">$25</p>
-                    <div class="icons">
-                      <i class="icon pet"></i>
-                      <i class="icon highSun"></i>
-                      <i class="icon drop"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <div class="slide-item" id="slideItemContainer"></div>
           </div>
 
           <div class="container">

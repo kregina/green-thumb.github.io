@@ -8,20 +8,41 @@
   display: inline-block;
   height: 21px;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center center;
+  background-size: 20px;
+  width: 38px;
 }
 
-.pet {
-  background: url("../images/pet.svg");
-  width: 28px;
+.false {
+  background-image: url("../images/Pet.svg");
+  background-size: 26px;
 }
 
-.highSun {
-  background: url("../images/highSun.svg");
-  width: 20px;
+.true {
+  background-image: url("../images/Toxic.svg");
 }
 
-.drop {
-  background: url("../images/drop.svg");
-  width: 20px;
+.no{
+  background-image: url("../images/NoSun.svg");
+}
+
+.high {
+  background-image: url("../images/HighSun.svg");
+}
+
+.low {
+  background-image: url("../images/LowSun.svg");
+}
+
+.daily{
+  background-image: url("../images/Daily.svg");
+  background-size: 26px;
+}
+
+.regularly{
+  background-image: url("../images/Regularly.svg");
+}
+
+.rarely{
+  background-image: url("../images/Normal.svg");
 }
