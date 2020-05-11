@@ -1,0 +1,27 @@
+.icons {
+  display: flex;
+  justify-content: space-between;
+  width: 80px;
+}
+
+.icon {
+  display: inline-block;
+  height: 21px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.pet {
+  background: url("../images/pet.svg");
+  width: 28px;
+}
+
+.highSun {
+  background: url("../images/highSun.svg");
+  width: 20px;
+}
+
+.drop {
+  background: url("../images/drop.svg");
+  width: 20px;
+}

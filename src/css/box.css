@@ -1,0 +1,26 @@
+.box {
+  display: grid;  
+  grid-template-rows: 100px auto 100px;
+}
+
+.box-image {
+  width: auto;
+}
+
+.box .select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("../images/arrow.svg");
+  background-repeat: no-repeat;
+  background-position-x: 93%;
+  background-position-y: center;
+  border: solid 1px var(--ligth-gray);
+  border-radius: 19px;
+  color: var(--gray);
+  font-weight: 300;
+  height: 40px;
+  margin-top: 1.500em;
+  outline: none;
+  padding: 0 20px;
+  width: 100%;
+}

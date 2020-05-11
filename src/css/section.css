@@ -1,0 +1,23 @@
+
+.title {
+  color: var(--dark-gray);
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 2.438rem;
+}
+
+.no-result .title {
+  color: var(--ligth-gray);
+  padding: 2.438rem 0 0;
+  margin: 0;
+}
+
+.no-result img {
+  margin-top: 3em;
+  width: 100%;
+}
+
+.result {
+  padding: 2.438rem 0;
+}

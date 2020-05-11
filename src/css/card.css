@@ -1,0 +1,32 @@
+
+.card {
+  background: var(--background-card);
+  border-radius: 5px;
+  padding-bottom: 1.875em;
+  overflow: hidden;
+}
+
+.card + .card {
+  margin-left: 20px;
+}
+
+.card-image {
+  width: 100%;
+}
+
+.card-content {
+  padding: 0 2em;
+}
+
+.card-content p {
+  color: var(--green);
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-actions {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}

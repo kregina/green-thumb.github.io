@@ -1,4 +1,5 @@
-import './index.css';
+import './scripts/css';
+
 import imgLogo from './images/logo.png';
 import imgSun from './images/sun.png';
 import imgDog from './images/dog.png';
