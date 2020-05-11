@@ -23,7 +23,6 @@ module.exports = {
           {
             loader: 'url-loader',
             options: {
-              name: 'images/[hash]-[name].[ext]',
               publicPath: 'assets',
             }
           }

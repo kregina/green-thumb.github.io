@@ -1,8 +1,10 @@
 :root {
   --background-color: #F2F2F2;
+  --background-card: #ffffff;
   --dark-gray: #0B2A1E;
   --gray: #797979;
   --ligth-gray: #A8A8A8;
+  --green: #1E6B4E;
 }
 
 body {
@@ -51,19 +53,12 @@ p {
   margin-bottom: 4.375em;
 }
 
-.result {
+.background {
   background: var(--background-color);
 }
 
-.result .title {
-  color: var(--ligth-gray);
-  padding: 2.438rem 0 0;
-  margin: 0;
-}
-
-.result img {
-  margin-top: 3em;
-  width: 100%;
+.box-image {
+  width: auto;
 }
 
 .box-content .select {
@@ -82,4 +77,89 @@ p {
   outline: none;
   padding: 0 20px;
   width: 100%;
+}
+
+.slide {
+  overflow-x: scroll;
+  margin-left: 20px;
+}
+
+.slide-item {
+  display: flex;
+  min-width: 350%;
+}
+
+.card {
+  background: var(--background-card);
+  border: 5px;
+  padding-bottom: 1.875em;
+  overflow: hidden;
+}
+
+.card + .card {
+  margin-left: 20px;
+}
+
+.card-image {
+  width: 100%;
+}
+
+.card-content {
+  padding: 0 2em;
+}
+
+.card-content p {
+  color: var(--green);
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-actions {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  width: 80px;
+}
+
+.icon {
+  display: inline-block;
+  height: 21px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.pet {
+  background: url("./images/pet.svg");
+  width: 28px;
+}
+
+.highSun {
+  background: url("./images/highSun.svg");
+  width: 20px;
+}
+
+.drop {
+  background: url("./images/drop.svg");
+  width: 20px;
+}
+
+.no-result .title {
+  color: var(--ligth-gray);
+  padding: 2.438rem 0 0;
+  margin: 0;
+}
+
+.no-result img {
+  margin-top: 3em;
+  width: 100%;
+}
+
+.result {
+  padding: 2.438rem 0;
 }
