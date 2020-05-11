@@ -1,14 +1,67 @@
+:root {
+  --title-color: #0B2A1E;
+  --text-color: #797979;
+  --select-border: #A8A8A8;
+}
+
 body {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  font-size: 16px;
 }
 
 header {
-  padding: 2.313em 2.500em;
+  padding: 2.313em 2.5em;
 }
 
 .logo {
   width: 166px;
+}
+
+.container {
+  padding: 0 2.5em;
+}
+
+.title {
+  color: var(--title-color);
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 2.438rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+  grid-gap: 3.125rem;
+}
+
+.search {
+  margin-bottom: 4.375em;
+}
+
+.box-content {
+  font-size: 0.875em;
+  color: var(--text-color)
+}
+
+.box-content .select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("./images/arrow.svg");
+  background-repeat: no-repeat;
+  background-position-x: 93%;
+  background-position-y: center;
+  border: solid 1px var(--select-border);
+  border-radius: 19px;
+  color: var(--text-color);
+  font-size: 0.875em;
+  font-weight: 300;
+  height: 40px;
+  margin-top: 1.500em;
+  outline: none;
+  padding: 0 20px;
+  width: 100%;
 }
